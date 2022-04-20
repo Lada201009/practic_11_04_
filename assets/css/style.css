@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-.full-name-profile, .capitalize, .uppercase, .btn-container{
+.full-name-profile, .address-profile{
   text-transform: capitalize;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -54,12 +54,19 @@
   cursor: pointer;
   border: none;
   color: white;
+  width: 45%;
+  text-transform: capitalize;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .follow{
   background-color: green;
+  max-width: 100px;
 }
 .send-messege{
-  background-color:blue
+  background-color:blue;
+  max-width: 160px;
 }
 .card-footer{
   background-color: var(--main-bg-color);
@@ -82,12 +89,3 @@
 .icon-twittter{
   background-image: url(./../icon/twitter.png);
 }
-
-/* .full-name-profile, 
-.address-profile, 
-.btn-container{
-  text-transform: capitalize;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}  */
